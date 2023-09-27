@@ -23,4 +23,3 @@
 3. 提交项目到 GitHub;
 4. 在 Railway 上创建一个新的应用，选择 GitHub 作为部署源，选择刚才提交的项目;
 5. 等待部署完成，访问 `https://<your-app-name>.railway.app/api/words/hello` (在 `Settings` - `Public Network` 中指定)即可
-# ecdict-api
