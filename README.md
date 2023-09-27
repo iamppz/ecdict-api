@@ -2,6 +2,31 @@
 
 基于 [ECDICT](ECDICT) 的词典 API。
 
+``` javascript
+GET /api/words/hello
+
+{
+    "success": true,
+    "message": "Ok",
+    "data": {
+        "word": "China",
+        "phonetic": "'tʃainә",
+        "definition": "n. a communist nation that covers a vast territory in eastern Asia; the most populous country in the world\\nn. high quality porcelain originally made only in China",
+        "translation": "n. 中国, 瓷器\\na. 中国的",
+        "pos": null,
+        "collins": "2",
+        "oxford": null,
+        "tag": "zk gk",
+        "bnc": "1973",
+        "frq": "7946",
+        "exchange": null,
+        "detail": null,
+        "audio": null
+    },
+    "status": "success"
+}
+```
+
 ### 运行环境
 
 - JDK 17
