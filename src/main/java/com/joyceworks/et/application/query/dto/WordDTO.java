@@ -18,6 +18,10 @@ public class WordDTO {
     private String audio;
 
     public static WordDTO of(WordDO object) {
+        if (object == null) {
+            return null;
+        }
+
         WordDTO dto = new WordDTO();
         dto.setWord(object.getWord());
         dto.setPhonetic(object.getPhonetic());
