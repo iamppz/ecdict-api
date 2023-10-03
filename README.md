@@ -1,6 +1,6 @@
 # ECDICT API
 
-基于 [ECDICT](https://github.com/skywind3000/ECDICT) 的词典 API。
+基于 [ECDICT](https://github.com/skywind3000/ECDICT) 的中英词典 API。
 
 ``` javascript
 GET /api/words/hello
